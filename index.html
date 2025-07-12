@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Responsive Scientific Calculator</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="dark-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">Toggle Dark Mode</button>
+  <div class="app-wrapper" role="main">
+    <section class="calculator" role="application" aria-label="Scientific Calculator">
+      <div class="display" id="display" role="textbox" aria-live="polite" aria-atomic="true" tabindex="0">0</div>
+      <div class="buttons" role="group" aria-label="Calculator buttons">
+        <button type="button" class="operator" data-action="clear" aria-label="Clear (Escape)">C</button>
+        <button type="button" class="operator" data-action="backspace" aria-label="Backspace (Backspace)">
+          <span class="material-icons" aria-hidden="true">backspace</span>
+        </button>
+        <button type="button" class="operator" data-action="sqrt" aria-label="Square Root">√</button>
+        <button type="button" class="operator" data-action="power" aria-label="Exponentiation">^</button>
+        <button type="button" class="operator" data-action="divide" aria-label="Divide">÷</button>
+
+        <button type="button" data-number="7" aria-label="7">7</button>
+        <button type="button" data-number="8" aria-label="8">8</button>
+        <button type="button" data-number="9" aria-label="9">9</button>
+        <button type="button" class="operator" data-action="multiply" aria-label="Multiply">×</button>
+        <button type="button" class="operator" data-action="subtract" aria-label="Subtract">−</button>
+
+        <button type="button" data-number="4" aria-label="4">4</button>
+        <button type="button" data-number="5" aria-label="5">5</button>
+        <button type="button" data-number="6" aria-label="6">6</button>
+        <button type="button" class="operator" data-action="add" aria-label="Add">+</button>
+        <button type="button" class="operator" data-action="equals" aria-label="Equals" style="height:auto;">=</button>
+
+        <button type="button" data-number="1" aria-label="1">1</button>
+        <button type="button" data-number="2" aria-label="2">2</button>
+        <button type="button" data-number="3" aria-label="3">3</button>
+        <button type="button" data-number="0" class="span-two" aria-label="0">0</button>
+        <button type="button" data-number="." aria-label="Decimal point">.</button>
+      </div>
+    </section>
+
+    <aside class="history" aria-label="Calculation History" role="complementary">
+      <h2>History</h2>
+      <ul class="history-list" id="historyList" tabindex="0" aria-live="polite" aria-relevant="additions"></ul>
+    </aside>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
