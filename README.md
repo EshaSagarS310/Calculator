@@ -46,8 +46,11 @@ Optimized for:
 
 calculator-project/
 │
+
 ├── index.html
+
 ├── styles.css
+
 └── script.js
 
 
