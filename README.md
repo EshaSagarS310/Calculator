@@ -76,6 +76,8 @@ This project improved my skills in:
 ![alt text](image-1.png)
 
 
+**🔍 NOTE:** Best viewed at 60–80% browser zoom for an optimized desktop experience.
+
 ## 👨‍💻 Developer
 
 Developed by **Esha Sagar S**
