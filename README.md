@@ -69,11 +69,8 @@ This project improved my skills in:
 🔗 https://eshasagars310.github.io/Calculator/
 
 ## 📸 Screenshots
-![alt text](image.png)
 
-![alt text](image-2.png)
-
-![alt text](image-1.png)
+<img width="1481" height="865" alt="Cal_Screenshot" src="https://github.com/user-attachments/assets/95e49732-e404-4714-bdc3-ec7fdaed1152" />
 
 
 **🔍 NOTE:** Best viewed at 60–80% browser zoom for an optimized desktop experience.
